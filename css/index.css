@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+nav {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 2rem;
+}
+body {
+
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 76.3rem;
+    
+}
+.nav-item {
+    display: inline-block;
+    align-items: center;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+.main-div {
+    width: 80%;
+    margin-left: 10rem;
+    margin-right: 0;
+}
+.nav-items {
+    margin-top: 1.3rem;
+    color: rgb(38, 6, 154);
+}
+.signin-btn {
+    margin-right: -15rem;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+    padding: 0px 1.5rem;
+    font-size: 1.2rem;
+    background: linear-gradient(90deg,#9F2BC1, #E1A2B8 );
+}
+.imgs-div {
+    position: absolute;
+    right: 5rem;
+    top: 10rem;
+    
+} 
+.left-section {
+    width: 40rem;
+    position: absolute;
+    top: 20rem;
+}
+.vector-dot +img {
+    width: 65.5rem;
+    margin-right: 50px;
+}
+.vector-img {
+    position: absolute;
+    bottom: 10rem;
+}
+.vector-dot {
+    position: absolute;
+    bottom: 19rem;
+    left: 5rem;
+}
+.left-section h1 {
+   color: #403c71f7;
+   margin-top: -3rem;
+    font-size: 7rem;
+}
+.left-section h4 {
+    color: #3d4343;
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: lighter;
+    
+}
+.learn-more-btn {
+    position: relative;
+    top: 2rem;
+    padding: .5rem 2.5rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    background: linear-gradient(90deg,#9F2BC1, #E1A2B8);
+}
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
