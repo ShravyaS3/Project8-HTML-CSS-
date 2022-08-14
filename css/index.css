@@ -143,7 +143,7 @@ body {
         top: 90px;
     }
 }
-@media screen  and (max-width:1230px) {
+@media screen  and (max-width:500px) {
 
     .signin-btn {
         position: absolute;
@@ -157,3 +157,4 @@ body {
         width: 500px;
     }
 }
+
