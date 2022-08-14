@@ -102,3 +102,44 @@ body {
         font-size: 45%;
     }
 }
+@media screen  and (max-width:1230px) {
+    body{
+        overflow-x: hidden;
+        background-color: #dbb5f4;
+        background-image: none;
+    }
+    .nav-items 
+    {
+       display: none;
+    }
+    .imgs-div {
+        display: none;
+    }
+    .signin-btn {
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        padding: 10px 20px;
+    }
+    .left-section {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5%;
+        width: 500px;
+    }
+    .left-section h4 {
+        position: relative;
+        left: -60px;
+        top: 30px;
+        text-align: center;
+    }
+    .left-section h1 {
+        margin-bottom: 20px;
+        font-size: 75px;
+    }
+    .left-section button {
+        position: relative;
+        left: 120px;
+        top: 90px;
+    }
+}
